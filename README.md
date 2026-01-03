@@ -70,7 +70,5 @@ AirFlow-docker/
     *   **Contraseña**: `airflow`
 
 5.  **Activar el DAG**:
-    Busca el DAG llamado `dag_etl_scraper` y actívalo. Se ejecutará automáticamente una vez al día (`@daily`).
+    Busca el DAG llamado `dag_etl_weather` y actívalo. Se ejecutará automáticamente una vez al día (`@daily`).
 
-## 📄 Licencia
-Este proyecto es de uso libre para fines educativos y de desarrollo.
