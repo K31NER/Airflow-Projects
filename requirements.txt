@@ -1,0 +1,7 @@
+apache-airflow==2.9.0
+sqlmodel<0.0.14
+sqlalchemy<2.0
+httpx
+psycopg2-binary
+python-dotenv
+pydantic

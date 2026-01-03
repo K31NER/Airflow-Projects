@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+dags/dag_test.py
+logs/
+airflow.ico 
+create_shortcut.ps1
+start_airflow.bat
