@@ -32,14 +32,14 @@ def load_data_task(ti: TaskInstance):
 
 # Definimos los argumentos base de nuestro dag
 default_args = {
-    "owner": "ETL-Scraper",
+    "owner": "Weather-ETL",
     "retries": 1,
     "retry_delay": timedelta(minutes=5),
 }
 
 # Definimos el Dag
 with DAG(
-    dag_id="dag_etl_scraper",
+    dag_id="dag_etl_weather",
     description="ETL que hace web scraping para la recoleccion continua de datos",
     default_args=default_args,
     schedule="@daily", 
